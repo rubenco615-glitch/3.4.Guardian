@@ -1,0 +1,47 @@
+/* Estilos base de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    color: #222;
+}
+
+/* En el centro */
+main {
+    max-width: 450px;
+    margin: auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Tamaño del texto en formulario */
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Modo oscuro */
+body.tema-oscuro {
+    background-color: #121212;
+    color: white;
+}
+
+/* Los inputs y selects también se oscurecen para que se lean bien */
+body.tema-oscuro input,
+body.tema-oscuro select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #aaa;
+}
